@@ -1,0 +1,5 @@
+Credentials cache: API:BDA72F15-92C3-40EC-A786-9B225CBF46E6
+        Principal: md-aless@42ROMA.IT
+
+  Issued                Expires               Principal
+Sep 27 16:20:50 2021  Sep 28 02:20:46 2021  krbtgt/42ROMA.IT@42ROMA.IT

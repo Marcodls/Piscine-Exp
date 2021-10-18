@@ -6,7 +6,7 @@
 /*   By: md-aless <md-aless@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 14:44:16 by md-aless          #+#    #+#             */
-/*   Updated: 2021/10/18 14:59:14 by md-aless         ###   ########.fr       */
+/*   Updated: 2021/10/18 18:32:23 by md-aless         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,14 @@ int	main(int argc, char **argv)
 	int	i;
 
 	i = 0;
-	while (argc != 0)
+	if (argc == 1)
 	{
 		while (argv[0][i] != '\0')
 		{
-			write(1, &argv[0][i], 1);
+			write (1, &argv[0][i], 1);
 			i++;
 		}
+		write (1, "\n", 1);
+		return (0);
 	}
 }
